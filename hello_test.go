@@ -6,9 +6,9 @@ import (
 
 func TestHello(t *testing.T) {
 
-	hello := Hello()
+	ret := Hello()
 
-	if hello != "hello go world" {
+	if ret != "hello go world" {
 		t.Error("not 'hello go world'")
 	}
 }
